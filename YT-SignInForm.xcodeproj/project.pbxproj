@@ -11,6 +11,12 @@
 		C47052CF2B66BCC300292775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052CE2B66BCC300292775 /* ContentView.swift */; };
 		C47052D12B66BCC500292775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47052D02B66BCC500292775 /* Assets.xcassets */; };
 		C47052D42B66BCC500292775 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47052D32B66BCC500292775 /* Preview Assets.xcassets */; };
+		C47052DB2B66BD8E00292775 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052DA2B66BD8E00292775 /* CardView.swift */; };
+		C47052DD2B66BEC400292775 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052DC2B66BEC400292775 /* SignInView.swift */; };
+		C47052DF2B66C02C00292775 /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052DE2B66C02C00292775 /* SocialButton.swift */; };
+		C47052E12B66C0CB00292775 /* SignInSocialsStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052E02B66C0CB00292775 /* SignInSocialsStack.swift */; };
+		C47052E32B66C20300292775 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052E22B66C20300292775 /* SignUpView.swift */; };
+		C47052E52B66C2B500292775 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47052E42B66C2B500292775 /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		C47052CE2B66BCC300292775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C47052D02B66BCC500292775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47052D32B66BCC500292775 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C47052DA2B66BD8E00292775 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C47052DC2B66BEC400292775 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C47052DE2B66C02C00292775 /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
+		C47052E02B66C0CB00292775 /* SignInSocialsStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSocialsStack.swift; sourceTree = "<group>"; };
+		C47052E22B66C20300292775 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C47052E42B66C2B500292775 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				C47052CC2B66BCC300292775 /* YT_SignInFormApp.swift */,
 				C47052CE2B66BCC300292775 /* ContentView.swift */,
+				C47052E42B66C2B500292775 /* ToggleView.swift */,
 				C47052D02B66BCC500292775 /* Assets.xcassets */,
 				C47052D22B66BCC500292775 /* Preview Content */,
+				C47052DA2B66BD8E00292775 /* CardView.swift */,
+				C47052DC2B66BEC400292775 /* SignInView.swift */,
+				C47052E22B66C20300292775 /* SignUpView.swift */,
+				C47052E02B66C0CB00292775 /* SignInSocialsStack.swift */,
+				C47052DE2B66C02C00292775 /* SocialButton.swift */,
 			);
 			path = "YT-SignInForm";
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47052E52B66C2B500292775 /* ToggleView.swift in Sources */,
 				C47052CF2B66BCC300292775 /* ContentView.swift in Sources */,
+				C47052DB2B66BD8E00292775 /* CardView.swift in Sources */,
+				C47052DF2B66C02C00292775 /* SocialButton.swift in Sources */,
+				C47052E32B66C20300292775 /* SignUpView.swift in Sources */,
+				C47052DD2B66BEC400292775 /* SignInView.swift in Sources */,
 				C47052CD2B66BCC300292775 /* YT_SignInFormApp.swift in Sources */,
+				C47052E12B66C0CB00292775 /* SignInSocialsStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
